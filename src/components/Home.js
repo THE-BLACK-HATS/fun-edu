@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useHistory } from 'react-router';
 import main_banner from '../assets/banners/main page.png';
 function Home() {
     /* stateful vars */
@@ -7,6 +8,9 @@ function Home() {
     const [option, setOption] = useState("") // parent/child option input
     const [nameLabel, setNameLabel] = useState("Name:")
     const [agelabel, setAgeLabel] = useState("Age:")
+
+    // to move to a new route
+    const history = useHistory()
 
     /* Active elements' shadow style */
     const formStyle = {
@@ -45,8 +49,9 @@ function Home() {
                 height: "75vh",
                 objectFit: "cover",
                 borderBottom: "1px solid red",
-                borderBottomRadius: "24%",
-                boxShadow: "0 6px 12px rgba(255,0,0,0.12)"
+                borderBottomLeftRadius: "48%",
+                borderBottomRightRadius: "48%",
+                boxShadow: "0 6px 12px 2px rgba(255,0,0,0.12)"
             }} />
 
 
@@ -82,11 +87,11 @@ function Home() {
                         {
                             option === "" ?
                                 <input name="name-field my-2 mb-3" value={name}
-                                    style={{...disabledFormStyle, width: "21rem"}} readOnly /> :
-                                <input name="name-field my-2 mb-3" value={name} onChange={(elem) => {
+                                    style={{ ...disabledFormStyle, width: "48%" }} readOnly autoComplete="false" /> :
+                                <input name="name-field my-2 mb-3" value={name} autoComplete="false" onChange={(elem) => {
                                     setName(elem.target.value)
                                 }}
-                                    style={{...formStyle, width: "21rem"}} />
+                                    style={{ ...formStyle, width: "21rem" }} />
                         }
                         <br />
 
@@ -96,7 +101,7 @@ function Home() {
                         {
                             option === "" ?
                                 <select className="custom-select my-2 mb-3" name="age_field"
-                                    style={{...disabledFormStyle, width:"2rem", backgroundColor:"white"}} disabled></select> :
+                                    style={{ ...disabledFormStyle, width: "2rem", backgroundColor: "white" }} disabled></select> :
                                 <select className="custom-select my-2 mb-3" name="age_field" id="parent_child"
                                     value={ageOption} onChange={(elem) => {
                                         setAgeOption(elem.target.value)
@@ -110,12 +115,38 @@ function Home() {
                         }
                         <br />
                     </div>
-                    <button type="button" className="btn btn-light"
-                        style={{
-                            width: "24rem",
-                            margin: "0 auto",
-                            boxShadow: "0 6px 12px rgba(154,160,185,.2)"
-                        }}>Let's Go!</button>
+                    {
+                        (option === "" || name === "" || ageOption === "") ?
+                            <button type="button" className="btn btn-light"
+                                style={{
+                                    width: "48%",
+                                    margin: "0 auto",
+                                    border: "1px solid whitesmoke",
+                                    boxShadow: "0 6px 12px rgba(154,160,185,.2)",
+                                    cursor: "not-allowed !important" // no use
+                                }} disabled>Let's Go!</button> :
+                            <button type="button" className="btn btn-light"
+                                style={{
+                                    width: "48%",
+                                    margin: "0 auto",
+                                    border: "1px solid whitesmoke",
+                                    boxShadow: "0 6px 12px rgba(154,160,185,.2)"
+                                }}
+                                onClick={() => {
+                                    /* MOVE TO A NEW ROUTE */
+                                    switch (ageOption) {
+                                        case "10":
+                                            history.push("/fiveToTen")
+                                            break
+                                        case "13":
+                                            history.push("/elevenToThirteen")
+                                            break
+                                        case "18":
+                                            history.push("/fourteenToEighteen")
+                                            break
+                                    }
+                                }}>Let's Go!</button>
+                    }
                 </div>
             </div>
         </>
