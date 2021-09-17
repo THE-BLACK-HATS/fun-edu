@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { useHistory } from 'react-router';
-import main_banner from '../assets/banners/main page.png';
+import React, { useState, useEffect } from 'react'
+import { useHistory } from 'react-router'
+import main_banner from '../assets/banners/main page.png'
 function Home() {
     /* stateful vars */
     const [name, setName] = useState("") // name input
@@ -144,6 +144,8 @@ function Home() {
                                         case "18":
                                             history.push("/fourteenToEighteen")
                                             break
+                                        default: // just remove warnings
+                                            // do nothing we have already made sure this won't occur
                                     }
                                 }}>Let's Go!</button>
                     }
@@ -153,4 +155,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default Home
