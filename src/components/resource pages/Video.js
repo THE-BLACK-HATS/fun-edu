@@ -38,29 +38,29 @@ function Under10() {
                         margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
                     }}>Poems</h5>
                     <div className="list-group">
-                        <a target="_blank" href="https://www.youtube.com/watch?v=lI2wHDsnk0Q" className="list-group-item list-group-item-action">Top 10 nursery rhymes</a>
-                        <a target="_blank" href="https://youtu.be/Qz9SjKjxvcY" className="list-group-item list-group-item-action">Kid Songs</a>
-                        <a target="_blank" href="https://www.youtube.com/watch?v=-kzefBmHSU8" className="list-group-item list-group-item-action">Ba ba black sheep and more</a>
-                        <a target="_blank" href="https://www.youtube.com/watch?v=yCjJyiqpAuU" className="list-group-item list-group-item-action">Twinkle Twinkle Little Star</a>
-                        <a target="_blank" href="https://www.youtube.com/watch?v=RLMJmJ_IdnQ" className="list-group-item list-group-item-action">Jhonny Jhonny Yes Papa</a>
-                        <a target="_blank" href="https://www.youtube.com/watch?v=tWe93wO0VmE" className="list-group-item list-group-item-action">Clap Your Hands</a>
-                        <a target="_blank" href="https://www.youtube.com/watch?v=tWe93wO0VmE" className="list-group-item list-group-item-action">Rain Rain Go Away</a>
-                        <a target="_blank" href="https://www.youtube.com/watch?v=s7pcWnlwcjA" className="list-group-item list-group-item-action">Going to the forest</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=lI2wHDsnk0Q" className="list-group-item list-group-item-action">Top 10 nursery rhymes</a>
+                        <a target="_blank" rel="noreferrer" href="https://youtu.be/Qz9SjKjxvcY" className="list-group-item list-group-item-action">Kid Songs</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=-kzefBmHSU8" className="list-group-item list-group-item-action">Ba ba black sheep and more</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=yCjJyiqpAuU" className="list-group-item list-group-item-action">Twinkle Twinkle Little Star</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=RLMJmJ_IdnQ" className="list-group-item list-group-item-action">Jhonny Jhonny Yes Papa</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=tWe93wO0VmE" className="list-group-item list-group-item-action">Clap Your Hands</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=tWe93wO0VmE" className="list-group-item list-group-item-action">Rain Rain Go Away</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=s7pcWnlwcjA" className="list-group-item list-group-item-action">Going to the forest</a>
                     </div>
                     <br /><br />
                     <h5 className="card-title" style={{
                         margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
                     }}>A-Z alphabets</h5>
                     <div className="list-group">
-                        <a target="_blank" href="https://www.youtube.com/watch?v=vwAhdsodcmg" className="list-group-item list-group-item-action">Vocabulary words with pictures</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=vwAhdsodcmg" className="list-group-item list-group-item-action">Vocabulary words with pictures</a>
                     </div>
                     <br /><br />
                     <h5 className="card-title" style={{
                         margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
                     }}>Maths !</h5>
                     <div className="list-group">
-                        <a target="_blank" href="https://www.youtube.com/watch?v=x6D51-pz2A4" className="list-group-item list-group-item-action">Counting + Fruit names</a>
-                        <a target="_blank" href="https://youtu.be/Ml-L0RdGOb0" className="list-group-item list-group-item-action">1-20 multiplication tables</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=x6D51-pz2A4" className="list-group-item list-group-item-action">Counting + Fruit names</a>
+                        <a target="_blank" rel="noreferrer" href="https://youtu.be/Ml-L0RdGOb0" className="list-group-item list-group-item-action">1-20 multiplication tables</a>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@ function Under13() {
                         margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
                     }}>Bullying/Cyberbullying</h5>
                     <div className="list-group">
-                        <a target="_blank" href="https://www.parents.com/kids/health/5-real-world-issues-that-worry-young-kids/#jumpstart_player_1"
+                        <a target="_blank" rel="noreferrer" href="https://www.parents.com/kids/health/5-real-world-issues-that-worry-young-kids/#jumpstart_player_1"
                             className="list-group-item list-group-item-action">School issues</a>
                     </div>
                     <br /><br />
@@ -100,7 +100,7 @@ function Under13() {
                         margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
                     }}>Eriksonian Stages</h5>
                     <div className="list-group">
-                        <a target="_blank" href="https://www.scholastic.com/parents/family-life/social-emotional-learning/development-milestones/social-development-11-13-year-olds.html" className="list-group-item list-group-item-action">Social development in pre teens</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.scholastic.com/parents/family-life/social-emotional-learning/development-milestones/social-development-11-13-year-olds.html" className="list-group-item list-group-item-action">Social development in pre teens</a>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@ function Under18() {
                         margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
                     }}>Sexting</h5>
                     <div className="list-group">
-                        <a target="_blank" href="https://www.moms.com/topics-sensitive-teens-conversation/"
+                        <a target="_blank" rel="noreferrer" href="https://www.moms.com/topics-sensitive-teens-conversation/"
                             className="list-group-item list-group-item-action">Sensitive Topics for your teen</a>
                     </div>
                 </div>

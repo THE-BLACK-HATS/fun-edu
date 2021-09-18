@@ -1,5 +1,7 @@
 import React from 'react'
 
+// import banner18 from '../../assets/banners/14 - 18 yrs career track.png'
+
 function Career({ age }) {
     if (age === 10)
         return <Under10 />

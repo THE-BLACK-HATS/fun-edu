@@ -49,8 +49,8 @@ function Home() {
                 height: "75vh",
                 objectFit: "cover",
                 borderBottom: "1px solid red",
-                borderBottomLeftRadius: "48%",
-                borderBottomRightRadius: "48%",
+                borderBottomLeftRadius: "4%",
+                borderBottomRightRadius: "4%",
                 boxShadow: "0 6px 12px 2px rgba(255,0,0,0.12)"
             }} />
 

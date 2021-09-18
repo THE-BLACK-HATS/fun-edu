@@ -63,7 +63,7 @@ function Under13() {
                     }}>Personal Development</h5>
                     <div className="list-group">
                         <div className="container" style={{ marginBottom: "3rem" }}>
-                            <div className="accordion w-100" id="accordionExample">
+                            <div className="accordion" id="accordionExample">
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id='heading1'>
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target='#collapse1' aria-expanded="false" aria-controls='collapse1'>

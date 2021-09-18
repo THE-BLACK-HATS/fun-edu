@@ -1,5 +1,8 @@
 import React from 'react'
 
+// import banner13 from '../../assets/banners/11 - 13 yrs Moral Support.png'
+// import banner18 from '../../assets/banners/14 - 18 yrs Moral Support.png'
+
 function Moral({ age }) {
     if (age === 10)
         return <Under10 />
