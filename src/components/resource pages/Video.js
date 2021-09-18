@@ -1,4 +1,5 @@
 import React from 'react'
+import NotFound from '../NotFound'
 
 import banner10 from '../../assets/banners/5 - 10 yrs videos.png'
 import banner13 from '../../assets/banners/11 - 13 yrs video.png'
@@ -11,7 +12,7 @@ function Video({ age }) {
         return <Under13 />
     if (age === 18)
         return <Under18 />
-    return null
+    return <NotFound />
 }
 
 function Under10() {
@@ -34,6 +35,15 @@ function Under10() {
                 boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)"
             }}>
                 <div className="card-body w-50">
+                    <h5 className="card-title" style={{
+                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                    }}>TEDx Talks</h5>
+                    <div className="list-group">
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=9fLlkOMrMq4" className="list-group-item list-group-item-action">The power of reading</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=ICmok9ElvXI" className="list-group-item list-group-item-action">Friends = Happiness</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=JLYOUGo0ml4" className="list-group-item list-group-item-action">Lemons to lemonade</a>
+                    </div>
+                    <br /><br />
                     <h5 className="card-title" style={{
                         margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
                     }}>Poems</h5>
@@ -88,6 +98,14 @@ function Under13() {
                 boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)"
             }}>
                 <div className="card-body w-50">
+                <h5 className="card-title" style={{
+                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                    }}>TEDx Talks</h5>
+                    <div className="list-group">
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=Na9g6raGwio" className="list-group-item list-group-item-action">Be whoever you want at any age</a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=wRpRtlHNmGI" className="list-group-item list-group-item-action">Experiences of 12 yr old author</a>
+                    </div>
+                    <br /><br />
                     <h5 className="card-title" style={{
                         margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
                     }}>Bullying/Cyberbullying</h5>
@@ -128,6 +146,16 @@ function Under18() {
                 boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)"
             }}>
                 <div className="card-body w-50">
+                    <h5 className="card-title" style={{
+                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                    }}>TEDx Talks</h5>
+                    <div className="list-group">
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=sB34sRehUvU" className="list-group-item list-group-item-action"> Behind yourself </a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=Z2jEmN3blnE" className="list-group-item list-group-item-action"> Things I wish I knew before I was 18 </a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=FhG-VoRtkKY " className="list-group-item list-group-item-action"> Teen stress from teen perspective </a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=imCBztvKgus " className="list-group-item list-group-item-action"> Why you think you are ugly </a>
+                    </div>
+                    <br /><br />
                     <h5 className="card-title" style={{
                         margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
                     }}>Sexting</h5>

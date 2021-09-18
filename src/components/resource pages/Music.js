@@ -1,4 +1,5 @@
 import React from 'react'
+import NotFound from '../NotFound'
 import ReactAudioPlayer from 'react-audio-player'
 
 import banner10 from '../../assets/banners/5 - 10 yrs - music.png'
@@ -39,7 +40,7 @@ function Music({ age }) {
         return <Under13 />
     if (age === 18)
         return <Under18 />
-    return null
+    return <NotFound />
 }
 
 function Under10() {

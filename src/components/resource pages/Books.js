@@ -2,13 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import banner13 from '../../assets/banners/11 - 13 yrs E- Books.png'
 import banner18 from '../../assets/banners/14 - 18 yrs E- Books.png'
+import NotFound from '../NotFound'
+
 
 function Books({ age }) {
     if (age === 13)
         return <Under13 />
     if (age === 18)
         return <Under18 />
-    return null
+    return <NotFound />
 }
 
 function Under13() {
