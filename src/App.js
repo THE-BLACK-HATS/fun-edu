@@ -14,21 +14,21 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route path='/fiveToTen/music' exact><Music age={10} /></Route>
-        <Route path='/fiveToTen/video' exact><Video age={10} /></Route>
-        <Route path='/fiveToTen' component={FiveToTen} exact />
+        <Route path='/fun-edu/fiveToTen/music' exact><Music age={10} /></Route>
+        <Route path='/fun-edu/fiveToTen/video' exact><Video age={10} /></Route>
+        <Route path='/fun-edu/fiveToTen' component={FiveToTen} exact />
 
-        <Route path='/elevenToThirteen/music' exact ><Music age={13} /></Route>
-        <Route path='/elevenToThirteen/video' exact ><Video age={13} /></Route>
-        <Route path='/elevenToThirteen/books' exact ><Books age={13} /></Route>
-        <Route path='/elevenToThirteen' component={ElevenToThirteen} exact />
+        <Route path='/fun-edu/elevenToThirteen/music' exact ><Music age={13} /></Route>
+        <Route path='/fun-edu/elevenToThirteen/video' exact ><Video age={13} /></Route>
+        <Route path='/fun-edu/elevenToThirteen/books' exact ><Books age={13} /></Route>
+        <Route path='/fun-edu/elevenToThirteen' component={ElevenToThirteen} exact />
 
-        <Route path='/fourteenToEighteen/music' exact ><Music age={18} /></Route>
-        <Route path='/fourteenToEighteen/video' exact ><Video age={18} /></Route>
-        <Route path='/fourteenToEighteen/books' exact ><Books age={18} /></Route>
-        <Route path='/fourteenToEighteen/career' exact ><Career age={18} /></Route>
-        <Route path='/fourteenToEighteen/moral' exact ><Moral age={18} /></Route>
-        <Route path='/fourteenToEighteen/' component={FourteenToEighteen} exact />
+        <Route path='/fun-edu/fourteenToEighteen/music' exact ><Music age={18} /></Route>
+        <Route path='/fun-edu/fourteenToEighteen/video' exact ><Video age={18} /></Route>
+        <Route path='/fun-edu/fourteenToEighteen/books' exact ><Books age={18} /></Route>
+        <Route path='/fun-edu/fourteenToEighteen/career' exact ><Career age={18} /></Route>
+        <Route path='/fun-edu/fourteenToEighteen/moral' exact ><Moral age={18} /></Route>
+        <Route path='/fun-edu/fourteenToEighteen/' component={FourteenToEighteen} exact />
 
         <Route path='/fun-edu/' component={Home} />
         <Route path='/' component={Home} exact />
