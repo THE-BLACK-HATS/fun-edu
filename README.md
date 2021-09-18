@@ -3,11 +3,11 @@
 
 ## Gallery
 <p align-items="center">
-<img widht="200px" src="./screenshots/homePAGE.png" /><img widht="200px" src="./screenshots/homePAGEfilled.png" />
-<img widht="200px" src="./screenshots/booksPAGE.png" /><img widht="200px" src="./screenshots/mobileFriendly.png" />
-<img widht="200px" src="./screenshots/qnaPAGE.png" />
-<img src="./screenshots/resultsPAGE.png" />
+<img width="480px" src="./screenshots/homePAGE.png"/><img width="480px" src="./screenshots/booksPAGE.png"/>
+<img width="250px" src="./screenshots/mobileFriendly.png"/><img width="500px" src="./screenshots/homePAGEfilled.png"/>
+<img width="480px" src="./screenshots/qnaPAGE.png"/><img width="480px" src="./screenshots/resultsPAGE.png"/>
 </p>
+
 ## Host React app on GitHub pages
 `After linking you app to a github repo simply follow:`
 ### Install the gh-pages package as a _dev-dependency_ of the app.
