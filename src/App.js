@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <Switch>
         <Route path='/' component={Home} exact />
+        <Route path='/fun-edu' component={Home} exact />
 
         <Route path='/fiveToTen' component={FiveToTen} exact />
         <Route path='/fiveToTen/music' exact><Music age={10} /></Route>

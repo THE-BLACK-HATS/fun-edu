@@ -62,9 +62,9 @@ function Under10() {
                 backgroundColor: "white",
                 boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)"
             }}>
-                <div className="card-body w-50">
+                <div className="card-body">
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Concentration and relaxation</h5>
                     <div className="list-group">
                         <a href="#!" className="list-group-item list-group-item-action d-flex flex-wrap align-items-center justify-content-between">
@@ -80,7 +80,7 @@ function Under10() {
                     <br /><br />
 
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Peace and Joy</h5>
                     <div className="list-group">
                         <a href="#!" className="list-group-item list-group-item-action d-flex flex-wrap align-items-center justify-content-between">
@@ -92,7 +92,7 @@ function Under10() {
                     <br /><br />
 
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Study time !</h5>
                     <div className="list-group">
                         <a href="#!" className="list-group-item list-group-item-action d-flex flex-wrap align-items-center justify-content-between">
@@ -140,9 +140,9 @@ function Under13() {
                 backgroundColor: "white",
                 boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)"
             }}>
-                <div className="card-body w-50">
+                <div className="card-body">
                 <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Meditation and Healing</h5>
                     <div className="list-group">
                         <a href="#!" className="list-group-item list-group-item-action d-flex flex-wrap align-items-center justify-content-between">
@@ -158,7 +158,7 @@ function Under13() {
                     <br /><br />
 
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Motivation</h5>
                     <div className="list-group">
                         <a href="#!" className="list-group-item list-group-item-action d-flex flex-wrap align-items-center justify-content-between">
@@ -186,7 +186,7 @@ function Under13() {
                     <br /><br />
 
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Desh Bhakti</h5>
                     <div className="list-group">
                         <a href="#!" className="list-group-item list-group-item-action d-flex flex-wrap align-items-center justify-content-between">
@@ -234,9 +234,9 @@ function Under18() {
                 backgroundColor: "white",
                 boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)"
             }}>
-                <div className="card-body w-50">
+                <div className="card-body">
                 <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Meditation and Healing</h5>
                     <div className="list-group">
                         <a href="#!" className="list-group-item list-group-item-action d-flex flex-wrap align-items-center justify-content-between">
@@ -252,7 +252,7 @@ function Under18() {
                     <br /><br />
 
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Motivation</h5>
                     <div className="list-group">
                         <a href="#!" className="list-group-item list-group-item-action d-flex flex-wrap align-items-center justify-content-between">
@@ -280,7 +280,7 @@ function Under18() {
                     <br /><br />
 
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Desh Bhakti</h5>
                     <div className="list-group">
                         <a href="#!" className="list-group-item list-group-item-action d-flex flex-wrap align-items-center justify-content-between">

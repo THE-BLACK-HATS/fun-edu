@@ -32,9 +32,9 @@ function Under13() {
                 backgroundColor: "white",
                 boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)"
             }}>
-                <div className="card-body w-50">
+                <div className="card-body">
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Autobiography</h5>
                     <div className="list-group">
                         <Link to="#" className="list-group-item list-group-item-action">All Men Are Brothers</Link>
@@ -48,7 +48,7 @@ function Under13() {
                     {/* --------------------------------------------------------------------- */}
 
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Connective Books</h5>
                     <div className="list-group">
                         <Link to="#" className="list-group-item list-group-item-action">First Time Mom</Link>
@@ -61,7 +61,7 @@ function Under13() {
                     {/* --------------------------------------------------------------------- */}
 
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Personal Development</h5>
                     <div className="list-group">
                         <div className="container" style={{ marginBottom: "3rem" }}>
@@ -170,9 +170,9 @@ function Under18() {
                 backgroundColor: "white",
                 boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)"
             }}>
-                <div className="card-body w-50">
+                <div className="card-body">
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Autobiography</h5>
                     <div className="list-group">
                         <Link to="#" className="list-group-item list-group-item-action">All Men Are Brothers</Link>
@@ -186,7 +186,7 @@ function Under18() {
                     {/* --------------------------------------------------------------------- */}
 
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Connective Books</h5>
                     <div className="list-group">
                         <Link to="#" className="list-group-item list-group-item-action">First Time Mom</Link>
@@ -199,7 +199,7 @@ function Under18() {
                     {/* --------------------------------------------------------------------- */}
 
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Personal Development</h5>
                     <div className="list-group">
                         <div className="container" style={{ marginBottom: "3rem" }}>

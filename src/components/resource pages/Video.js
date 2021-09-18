@@ -34,9 +34,9 @@ function Under10() {
                 backgroundColor: "white",
                 boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)"
             }}>
-                <div className="card-body w-50">
+                <div className="card-body">
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>TEDx Talks</h5>
                     <div className="list-group">
                         <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=9fLlkOMrMq4" className="list-group-item list-group-item-action">The power of reading</a>
@@ -45,7 +45,7 @@ function Under10() {
                     </div>
                     <br /><br />
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Poems</h5>
                     <div className="list-group">
                         <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=lI2wHDsnk0Q" className="list-group-item list-group-item-action">Top 10 nursery rhymes</a>
@@ -59,14 +59,14 @@ function Under10() {
                     </div>
                     <br /><br />
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>A-Z alphabets</h5>
                     <div className="list-group">
                         <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=vwAhdsodcmg" className="list-group-item list-group-item-action">Vocabulary words with pictures</a>
                     </div>
                     <br /><br />
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Maths !</h5>
                     <div className="list-group">
                         <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=x6D51-pz2A4" className="list-group-item list-group-item-action">Counting + Fruit names</a>
@@ -97,9 +97,9 @@ function Under13() {
                 backgroundColor: "white",
                 boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)"
             }}>
-                <div className="card-body w-50">
+                <div className="card-body">
                 <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>TEDx Talks</h5>
                     <div className="list-group">
                         <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=Na9g6raGwio" className="list-group-item list-group-item-action">Be whoever you want at any age</a>
@@ -107,7 +107,7 @@ function Under13() {
                     </div>
                     <br /><br />
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Bullying/Cyberbullying</h5>
                     <div className="list-group">
                         <a target="_blank" rel="noreferrer" href="https://www.parents.com/kids/health/5-real-world-issues-that-worry-young-kids/#jumpstart_player_1"
@@ -115,7 +115,7 @@ function Under13() {
                     </div>
                     <br /><br />
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Eriksonian Stages</h5>
                     <div className="list-group">
                         <a target="_blank" rel="noreferrer" href="https://www.scholastic.com/parents/family-life/social-emotional-learning/development-milestones/social-development-11-13-year-olds.html" className="list-group-item list-group-item-action">Social development in pre teens</a>
@@ -145,9 +145,9 @@ function Under18() {
                 backgroundColor: "white",
                 boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)"
             }}>
-                <div className="card-body w-50">
+                <div className="card-body">
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>TEDx Talks</h5>
                     <div className="list-group">
                         <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=sB34sRehUvU" className="list-group-item list-group-item-action"> Behind yourself </a>
@@ -157,7 +157,7 @@ function Under18() {
                     </div>
                     <br /><br />
                     <h5 className="card-title" style={{
-                        margin: "0 auto", width: "100%", textAlign: "center", borderBottom: "2px solid black"
+                        margin: "0 auto", maxWidth: "96vw", width: "32rem", textAlign: "center", borderBottom: "2px solid black"
                     }}>Sexting</h5>
                     <div className="list-group">
                         <a target="_blank" rel="noreferrer" href="https://www.moms.com/topics-sensitive-teens-conversation/"

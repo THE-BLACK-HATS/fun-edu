@@ -26,7 +26,7 @@ function Under18() {
                 <img src={careerPaths} className="card container-md" alt="career paths"
                 style={{
                     margin: "0 auto",
-                    height: "84vh",
+                    maxWidth: "1258px",
                     border: "1px solid whitesmoke",
                     backgroundColor: "white",
                     boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)"
