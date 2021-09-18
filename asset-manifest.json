@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fun-edu/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/fun-edu/static/js/main.1e7ebf96.chunk.js",
-    "main.js.map": "/fun-edu/static/js/main.1e7ebf96.chunk.js.map",
+    "main.js": "/fun-edu/static/js/main.03bcda87.chunk.js",
+    "main.js.map": "/fun-edu/static/js/main.03bcda87.chunk.js.map",
     "runtime-main.js": "/fun-edu/static/js/runtime-main.9588d65f.js",
     "runtime-main.js.map": "/fun-edu/static/js/runtime-main.9588d65f.js.map",
     "static/js/2.14284fe1.chunk.js": "/fun-edu/static/js/2.14284fe1.chunk.js",
@@ -61,6 +61,6 @@
     "static/js/runtime-main.9588d65f.js",
     "static/js/2.14284fe1.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.1e7ebf96.chunk.js"
+    "static/js/main.03bcda87.chunk.js"
   ]
 }
