@@ -185,7 +185,7 @@ function ResultsComponent() {
                                 <div className="card-body">
                                     <h5 className="card-title">Music</h5>
                                     <p className="card-text">Find music suited for your age group.</p>
-                                    <Link className="card-text text-danger d-block text-end" to="/FourteenToEighteenMusic">
+                                    <Link className="card-text text-danger d-block text-end" to="fourteenToEighteen/music">
                                         <small>Listen !</small>
                                     </Link>
                                 </div>
@@ -204,7 +204,7 @@ function ResultsComponent() {
                                 <div className="card-body">
                                     <h5 className="card-title">Videos</h5>
                                     <p className="card-text">Like videos? Find what you like.</p>
-                                    <Link className="card-text text-danger d-block text-end" to="/FourteenToEighteenVideo">
+                                    <Link className="card-text text-danger d-block text-end" to="fourteenToEighteen/video">
                                         <small>Watch !</small>
                                     </Link>
                                 </div>
@@ -223,7 +223,7 @@ function ResultsComponent() {
                                 <div className="card-body">
                                     <h5 className="card-title">E-Books</h5>
                                     <p className="card-text">Love reading? You're welcome.</p>
-                                    <Link className="card-text text-danger d-block text-end" to="/FourteenToEighteenBooks">
+                                    <Link className="card-text text-danger d-block text-end" to="fourteenToEighteen/books">
                                         <small>Read !</small>
                                     </Link>
                                 </div>
@@ -242,7 +242,7 @@ function ResultsComponent() {
                                 <div className="card-body">
                                     <h5 className="card-title">Moral Support</h5>
                                     <p className="card-text">Ethics and values are important in personal development.</p>
-                                    <Link className="card-text text-danger d-block text-end" to="/FourteenToEighteenMoral">
+                                    <Link className="card-text text-danger d-block text-end" to="fourteenToEighteen/moral">
                                         <small>Watch !</small>
                                     </Link>
                                 </div>
@@ -261,7 +261,7 @@ function ResultsComponent() {
                                 <div className="card-body">
                                     <h5 className="card-title">Career Track</h5>
                                     <p className="card-text">Expert tips to ace your career and avoid the common mistakes.</p>
-                                    <Link className="card-text text-danger d-block text-end" to="/FourteenToEighteenCareer">
+                                    <Link className="card-text text-danger d-block text-end" to="fourteenToEighteen/career">
                                         <small>Show</small>
                                     </Link>
                                 </div>

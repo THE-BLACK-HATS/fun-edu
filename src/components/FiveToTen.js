@@ -181,7 +181,7 @@ function ResultsComponent() {
                                 <div className="card-body">
                                     <h5 className="card-title">Music</h5>
                                     <p className="card-text">Specially selected tunes for little ones.</p>
-                                    <Link className="card-text text-danger d-block text-end" to="/FiveToTenMusic">
+                                    <Link className="card-text text-danger d-block text-end" to="fiveToTen/music">
                                         <small>Listen !</small>
                                     </Link>
                                 </div>
@@ -200,7 +200,7 @@ function ResultsComponent() {
                                 <div className="card-body">
                                     <h5 className="card-title">Videos</h5>
                                     <p className="card-text">Thoughtfully picked videos for toddlers.</p>
-                                    <Link className="card-text text-danger d-block text-end" to="/FiveToTenVideo">
+                                    <Link className="card-text text-danger d-block text-end" to="fiveToTen/video">
                                         <small>Watch !</small>
                                     </Link>
                                 </div>
