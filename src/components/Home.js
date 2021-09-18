@@ -138,13 +138,13 @@ function Home() {
                                     /* MOVE TO A NEW ROUTE */
                                     switch (ageOption) {
                                         case "10":
-                                            history.push("/fiveToTen")
+                                            history.push("/fun-edu/fiveToTen")
                                             break
                                         case "13":
-                                            history.push("/elevenToThirteen")
+                                            history.push("/fun-edu/elevenToThirteen")
                                             break
                                         case "18":
-                                            history.push("/fourteenToEighteen")
+                                            history.push("/fun-edu/fourteenToEighteen")
                                             break
                                         default: // just remove warnings
                                             // do nothing we have already made sure this won't occur
