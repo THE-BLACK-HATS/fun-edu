@@ -74,8 +74,7 @@ function FourteenToEighteen() {
             <div className="container-fluid my-3">
                 {
                     index < 5 /* 6th question doesn't exist */ ?
-                        <div className="card" style={{
-                            width: "52%",
+                        <div className="card container-md" style={{
                             margin: "0 auto",
                             border: "1px solid whitesmoke",
                             backgroundColor: "white",

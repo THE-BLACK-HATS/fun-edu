@@ -14,12 +14,14 @@ function Home() {
 
     /* Active elements' shadow style */
     const formStyle = {
+        maxWidth: "100%",
         border: "1px solid whitesmoke",
         backgroundColor: "white",
         boxShadow: "0 6px 12px rgba(154,160,185,.1), 0 12px 24px rgba(166,173,201,.4)"
     }
     /* Disabled elements' shadow style */
     const disabledFormStyle = {
+        maxWidth: "100%",
         border: "none",
         boxShadow: "0 6px 12px rgba(154,160,185,.2)"
     }
@@ -87,7 +89,7 @@ function Home() {
                         {
                             option === "" ?
                                 <input name="name-field my-2 mb-3" value={name}
-                                    style={{ ...disabledFormStyle, width: "48%" }} readOnly autoComplete="false" /> :
+                                    style={{ ...disabledFormStyle, width: "6rem" }} readOnly autoComplete="false" /> :
                                 <input name="name-field my-2 mb-3" value={name} autoComplete="false" onChange={(elem) => {
                                     setName(elem.target.value)
                                 }}

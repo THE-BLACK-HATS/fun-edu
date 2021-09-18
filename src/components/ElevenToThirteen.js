@@ -7,6 +7,7 @@ import result_banner from '../assets/banners/response page.png'
 import music11_13 from '../assets/logo/11 - 13 YRS MUSIC.jpg'
 import video11_13 from '../assets/logo/11-13 YRS VIDEO.jpg'
 import books11_13 from '../assets/logo/11 -13 YRS E BOOKS.jpg'
+import moral11_13 from '../assets/logo/moral.jpg'
 
 let score = 0
 /* made this a global variable because:
@@ -72,8 +73,7 @@ function ElevenToThirteen() {
             <div className="container-fluid my-3">
                 {
                     index < 5 /* 6th question doesn't exist */ ?
-                        <div className="card" style={{
-                            width: "52%",
+                        <div className="card container-md" style={{
                             margin: "0 auto",
                             border: "1px solid whitesmoke",
                             backgroundColor: "white",
@@ -204,6 +204,25 @@ function ResultsComponent() {
                                     <p className="card-text">Like videos? Find what you like.</p>
                                     <Link className="card-text text-danger d-block text-end" to="/elevenToThirteen/video">
                                         <small>Watch !</small>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card m-2 mb-3" style={{ maxWidth: "420px" }}>
+                        <div className="d-flex flex-wrap flex-sm-column flex-md-row flex-lg-row">
+                            <div className="col-md-4" style={{ overflow: 'hidden' }}>
+                                <img src={moral11_13} className="img-fluid rounded-start" alt="logo"
+                                    style={{
+                                        transform: "scale(2.4)"
+                                    }} />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">Moral Support</h5>
+                                    <p className="card-text">Ethics and values build a personality</p>
+                                    <Link className="card-text text-danger d-block text-end" to="/elevenToThirteen/books">
+                                        <small>Coming soon !</small>
                                     </Link>
                                 </div>
                             </div>
