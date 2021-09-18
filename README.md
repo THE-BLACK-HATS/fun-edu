@@ -1,5 +1,18 @@
 # FunEdu - an education repository
+- Breaking the boundaries of exposure to social life and framing it rightfully.
+- Making the digital life useful rather than wasting wasting time on something else.
+- Shaping all mental odds using technology, i.e., LISTENING, VISUALISING, READING.
+- Helping out teens to deal with the dark phases wisely in the time of crisis.
 
+## Benefits of FunEdu
+- **MORAL SUPPORT** - FunEdu tackels one of the most important problems of modern life - *Depression* by providing resources for motivating and uplifitng the child's mood
+-  **MENTAL HEALTH** - The lockdown crisis caused a great impact one every teen's mind, funedu provides enough materials to cope up with the world, and also provide them resources that help shape a good personality.
+-  **SPIRITUALITY** - In the age of smartphones where children might get easily influenced by social media influences or cutthroat competition... In any case discipline and piety will play an important role in defending them against these negative influences, rather the children will be able to decide the good and bad for themselves.
+-  **Child-Parent Connection** - FunEdu also helps to close the gap between parents and their children by providing useful articles information, and help them build better connections in and after the lockdown.
+
+## Upcoming Plans
+- Finish the project and make it even more elaborate with more resources and better analysis with better quizes.
+- Launching an app that provides equally snappy experience for users which would be easier for them to access on their phones.
 
 ## Gallery
 <p align-items="center">
@@ -7,7 +20,7 @@
 <img width="250px" src="./screenshots/mobileFriendly.png"/><img width="500px" src="./screenshots/homePAGEfilled.png"/>
 <img width="480px" src="./screenshots/qnaPAGE.png"/><img width="480px" src="./screenshots/resultsPAGE.png"/>
 </p>
-
+<!--
 ## Host React app on GitHub pages
 `After linking you app to a github repo simply follow:`
 ### Install the gh-pages package as a _dev-dependency_ of the app.
@@ -61,5 +74,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
