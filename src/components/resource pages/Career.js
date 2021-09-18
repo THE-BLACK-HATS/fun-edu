@@ -23,7 +23,8 @@ function Under18() {
                 boxShadow: "0 6px 12px 2px rgba(255,0,0,0.12)"
             }} />
             <div className="container-fluid my-3 container-md text-center d-flex align-items-center">
-                <img src={careerPaths} className="card container-md" style={{
+                <img src={careerPaths} className="card container-md" alt="career paths"
+                style={{
                     margin: "0 auto",
                     height: "84vh",
                     border: "1px solid whitesmoke",
