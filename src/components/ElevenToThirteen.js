@@ -46,7 +46,7 @@ function ElevenToThirteen() {
     const [index, setIndex] = useState(0);
     return (
         <>
-            {/* QnA Banner */
+            { /* QnA Banner */
                 index < 5 ?
                     <img className="mb-3" src={qna_banner} alt="main banner funedu" style={{
                         width: "99.2vw",
@@ -183,7 +183,7 @@ function ResultsComponent() {
                                 <div className="card-body">
                                     <h5 className="card-title">Music</h5>
                                     <p className="card-text">Find music suited for your age group.</p>
-                                    <Link className="card-text text-danger d-block text-end" to="/FiveToTenMusic">
+                                    <Link className="card-text text-danger d-block text-end" to="/ElevenToThirteenMusic">
                                         <small>Listen !</small>
                                     </Link>
                                 </div>
@@ -202,7 +202,7 @@ function ResultsComponent() {
                                 <div className="card-body">
                                     <h5 className="card-title">Videos</h5>
                                     <p className="card-text">Like videos? Find what you like.</p>
-                                    <Link className="card-text text-danger d-block text-end" to="/FiveToTenVideo">
+                                    <Link className="card-text text-danger d-block text-end" to="/ElevenToThirteenVideo">
                                         <small>Watch !</small>
                                     </Link>
                                 </div>
@@ -221,8 +221,8 @@ function ResultsComponent() {
                                 <div className="card-body">
                                     <h5 className="card-title">E-Books</h5>
                                     <p className="card-text">Love reading? You're welcome.</p>
-                                    <Link className="card-text text-danger d-block text-end" to="/FiveToTenVideo">
-                                        <small>Watch !</small>
+                                    <Link className="card-text text-danger d-block text-end" to="/ElevenToThirteenBooks">
+                                        <small>Read !</small>
                                     </Link>
                                 </div>
                             </div>
