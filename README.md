@@ -2,7 +2,7 @@
 - Breaking the boundaries of exposure to social life and framing it rightfully.
 - Making the digital life useful rather than wasting wasting time on something else.
 - Shaping all mental odds using technology, i.e., LISTENING, VISUALISING, READING.
-- Helping out teens to deal with the dark phases wisely in the time of crisis been there.
+- Helping out teens to deal with the dark phases wisely in the time of crisis.
 
 ## Benefits of FunEdu
 - **MORAL SUPPORT** - FunEdu tackels one of the most important problems of modern life - *Depression* by providing resources for motivating and uplifitng the child's mood
